@@ -239,7 +239,18 @@ const ThemeSwitcher = () => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
     >
-      {theme === 'dark' ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-blue-400" />}
+       <div className="text-xl transition-colors duration-300">
+        {theme === 'dark' ? (
+          <FaSun className="text-yellow-400" />
+        ) : (
+          <FaMoon className="text-blue-400" />
+        )}
+      </div>
+
+      {/* Tooltip */}
+      <span className="absolute bottom-full mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+      </span>
     </motion.button>
   );
 };
