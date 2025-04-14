@@ -656,7 +656,7 @@ const Photo = () => {
           />
           
           <motion.p 
-            className="text-xs text-gray-400"
+            className="text-xs text-red-400"
             initial={{ y: 10, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -666,7 +666,7 @@ const Photo = () => {
           </motion.p>
           
           <motion.p 
-            className="text-sm font-bold text-white"
+            className="text-sm font-bold text-black"
             initial={{ y: 10, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -808,7 +808,7 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
             >
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/NIMALMG" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 5, color: '#6366f1' }}
@@ -818,7 +818,7 @@ const Home = () => {
                 <FaGithub size={24} className="sm:w-7 sm:h-7" />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/nimal-mg/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 5, color: '#6366f1' }}
@@ -1115,7 +1115,7 @@ const Home = () => {
             </motion.div>
             <div className="flex gap-6">
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/NIMALMG" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 5, color: '#6366f1' }}
@@ -1129,7 +1129,7 @@ const Home = () => {
                 <FaGithub size={20} />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/nimal-mg/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, rotate: 5, color: '#6366f1' }}
@@ -1164,7 +1164,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              DESIGN AND DEVELOPED BY UNFAZED
+              DESIGN AND DEVELOPED BY GEN-Z
             </motion.div>
           </motion.div>
         </footer>
