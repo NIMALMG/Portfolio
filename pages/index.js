@@ -235,22 +235,11 @@ const ThemeSwitcher = () => {
   return (
     <motion.button
       onClick={toggleTheme}
-      className="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-[rgba(255,255,255,0.1)] backdrop-blur-md border border-[#7f5af0]/30"
+      className="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-[rgba(255,255,255,0.1)] backdrop-blur-md border border-[#7f5af0]/30 flex items-center justify-center"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
     >
-       <div className="text-xl transition-colors duration-300">
-        {theme === 'dark' ? (
-          <FaSun className="text-yellow-400" />
-        ) : (
-          <FaMoon className="text-blue-400" />
-        )}
-      </div>
-
-      {/* Tooltip */}
-      <span className="absolute bottom-full mb-2 px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
-      </span>
+      {theme === 'dark' ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-blue-400" />}
     </motion.button>
   );
 };
