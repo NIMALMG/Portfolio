@@ -1,0 +1,26 @@
+{
+  "name": "animated-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3333",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@formspree/react": "^3.0.0",
+    "framer-motion": "^11.0.0",
+    "gsap": "^3.12.2",
+    "next": "15.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0"
+  }
+}

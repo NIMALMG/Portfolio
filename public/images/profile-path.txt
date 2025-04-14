@@ -1,0 +1,1 @@
+The profile image should be saved as profile.jpg in this directory.

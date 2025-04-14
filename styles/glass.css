@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(127, 90, 240, 0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(127, 90, 240, 0.3);
+}
+
+.text-primary {
+  color: #ffffff;
+}
+
+.text-secondary {
+  color: #94a1b2;
+}
+
+.accent-gradient {
+  background: linear-gradient(135deg, #7f5af0, #2cb67d);
+}
